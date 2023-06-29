@@ -1,4 +1,4 @@
-var audio = document.getElementById('top_player_Html5_api');
+var audio = document.getElementById('audio1');
 var playButton = document.getElementById('playButton');
 
 function toggleAudio() {
