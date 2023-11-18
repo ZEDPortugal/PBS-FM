@@ -309,6 +309,83 @@ fill: #0E1822;
       
     }
 
+    @media screen and (max-width: 1024px) { 
+          
+      .home {
+        height: 100vh;
+        background: url();
+        display: flex;
+        align-items: center;
+        padding: 0 0%;
+        background:rgb(0,0,0,0.8) url("https://cdn.shopify.com/s/files/1/0465/5549/6598/files/The-Right-Home-Music.jpg?v=1623318672");
+        background-blend-mode: darken;
+      }
+      
+                    header {
+                      position: fixed;
+                      top: 0;
+                      left: 0;
+                      width: 100%;
+                      height: 8%;
+                      padding: 0% 0%;
+                      background: black;
+                      display: flex;
+                      justify-content: space-between;
+                      align-items: center;
+                    }
+              
+                    .logo {
+                      font-family: "montserrat", sans-serif;
+                      font-size: 40px;
+                      resize: none;
+                      margin-left: 10px;
+                      color: #ffffff;
+                      }
+                  
+                  /* FM1 */
+                  
+                  .fm1 {
+                    position: fixed;
+                    margin-top: -10%;
+                    width: 200px;  
+                    margin-left: 10%;
+                  }
+                  
+                  .button-bordersfm1 {
+                    position: fixed;
+                    margin-left: 14.7%;
+                    margin-top: 20%;
+                  }
+                  
+                  
+                  /* pbs */
+                  .pbs {
+                    position: fixed;
+                    width: 200px; 
+                    margin-left: 42%;
+                    margin-top: 0%;
+                  }
+                  
+                  
+                  /* FM2 */
+                  
+                  .fm2 {
+                    position: fixed;
+                    margin-top: -10%;
+                    width: 200px;  
+                    margin-left: 71%;
+                    
+                  }
+                  
+                  .button-bordersfm2 {
+                    position: fixed;
+                    margin-left: 76%;
+                    margin-top: 20%;
+                  }
+                  
+                        
+                      }
+
     @media screen and (max-width: 480px) { 
     
           header {
@@ -376,146 +453,5 @@ fill: #0E1822;
               
             }
 
-            @media screen and (max-width: 1024px) { 
-          
-.home {
-  height: 100vh;
-  background: url();
-  display: flex;
-  align-items: center;
-  padding: 0 0%;
-  background:rgb(0,0,0,0.8) url("https://cdn.shopify.com/s/files/1/0465/5549/6598/files/The-Right-Home-Music.jpg?v=1623318672");
-  background-blend-mode: darken;
-}
-
-              header {
-                position: fixed;
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 8%;
-                padding: 0% 0%;
-                background: black;
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-              }
-        
-              .logo {
-                font-family: "montserrat", sans-serif;
-                font-size: 40px;
-                resize: none;
-                margin-left: 10px;
-                color: #ffffff;
-                }
-            
-            /* FM1 */
-            
-            .fm1 {
-              position: fixed;
-              margin-top: -10%;
-              width: 200px;  
-              margin-left: 10%;
-            }
-            
-            .button-bordersfm1 {
-              position: fixed;
-              margin-left: 14.7%;
-              margin-top: 20%;
-            }
             
             
-            /* pbs */
-            .pbs {
-              position: fixed;
-              width: 200px; 
-              margin-left: 42%;
-              margin-top: 0%;
-            }
-            
-            
-            /* FM2 */
-            
-            .fm2 {
-              position: fixed;
-              margin-top: -10%;
-              width: 200px;  
-              margin-left: 71%;
-              
-            }
-            
-            .button-bordersfm2 {
-              position: fixed;
-              margin-left: 76%;
-              margin-top: 20%;
-            }
-            
-                  
-                }
-
-                @media screen and (max-width: 768px) { 
-    
-                  header {
-                    position: fixed;
-                    top: 0;
-                    left: 0;
-                    width: 100%;
-                    height: 8%;
-                    padding: 0% 0%;
-                    background: black;
-                    display: flex;
-                    justify-content: space-between;
-                    align-items: center;
-                  }
-            
-                  .logo {
-                    font-family: "montserrat", sans-serif;
-                    font-size: 30px;
-                    resize: none;
-                    margin-left: 10px;
-                    color: #ffffff;
-                    }
-                
-                            /* FM1 */
-            
-            .fm1 {
-              position: fixed;
-              margin-top: -10%;
-              width: 200px;  
-              margin-left: 10%;
-            }
-            
-            .button-bordersfm1 {
-              position: fixed;
-              margin-left: 16.2%;
-              margin-top: 30%;
-            }
-            
-            
-            /* pbs */
-            .pbs {
-              position: fixed;
-              width: 200px; 
-              margin-left: 39%;
-              margin-top: 0%;
-            }
-            
-            
-            /* FM2 */
-            
-            .fm2 {
-              position: fixed;
-              margin-top: -10%;
-              width: 200px;  
-              margin-left: 65%;
-              
-            }
-            
-            .button-bordersfm2 {
-              position: fixed;
-              margin-left: 71.3%;
-              margin-top: 30%;
-            }
-                
-                      
-                    }
