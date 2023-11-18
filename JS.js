@@ -6,16 +6,24 @@ var playButton2 = document.getElementById('playButton2');
 
 function toggleAudio(audioElement, playButtonElement, otherAudioElement, otherPlayButtonElement) {
     if (audioElement.paused) {
-        audioElement.play();
-        playButtonElement.innerHTML = 'PLAY';
-        playButtonElement.style.backgroundColor = '#0E1822';
+   
+        audioElement.play().then(() => {
+      
+            playButtonElement.innerHTML = 'PAUSE';
+            playButtonElement.style.backgroundColor = '#0E1822';
 
-        if (!otherAudioElement.paused) {
-            otherAudioElement.pause();
-            otherPlayButtonElement.innerHTML = 'PLAY';
-            otherPlayButtonElement.style.backgroundColor = '#FF4655';
-        }
+
+            if (!otherAudioElement.paused) {
+                otherAudioElement.pause();
+                otherPlayButtonElement.innerHTML = 'PLAY';
+                otherPlayButtonElement.style.backgroundColor = '#FF4655';
+            }
+        }).catch(error => {
+           
+            console.error('Error playing audio:', error);
+        });
     } else {
+     
         audioElement.pause();
         playButtonElement.innerHTML = 'PLAY';
         playButtonElement.style.backgroundColor = '#FF4655';
