@@ -7,17 +7,17 @@ var playButton2 = document.getElementById('playButton2');
 function toggleAudio(audioElement, playButtonElement, otherAudioElement, otherPlayButtonElement) {
     if (audioElement.paused) {
         audioElement.play();
-        playButtonElement.innerHTML = 'FM1';
+        playButtonElement.innerHTML = 'PLAY';
         playButtonElement.style.backgroundColor = '#0E1822';
 
         if (!otherAudioElement.paused) {
             otherAudioElement.pause();
-            otherPlayButtonElement.innerHTML = 'FM2';
+            otherPlayButtonElement.innerHTML = 'PLAY';
             otherPlayButtonElement.style.backgroundColor = '#FF4655';
         }
     } else {
         audioElement.pause();
-        playButtonElement.innerHTML = 'FM1';
+        playButtonElement.innerHTML = 'PLAY';
         playButtonElement.style.backgroundColor = '#FF4655';
     }
 }
