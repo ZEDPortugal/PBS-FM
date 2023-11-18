@@ -336,15 +336,15 @@ fill: #0E1822;
         
         .fm1 {
           position: fixed;
-          margin-top: -60%;
+          margin-top: -100%;
           width: 200px;  
-          margin-left: 20%;
+          margin-left: 0%;
         }
         
         .button-bordersfm1 {
           position: fixed;
-          margin-left: 113px;
-          margin-top: 20%;
+          margin-left: 46.8px;
+          margin-top: -20%;
         }
         
         
@@ -352,8 +352,8 @@ fill: #0E1822;
         .pbs {
           position: fixed;
           width: 200px; 
-          margin-left: 20%;
-          margin-top: 280%;
+          margin-left: 24%;
+          margin-top: 60%;
         }
         
         
@@ -361,16 +361,16 @@ fill: #0E1822;
         
         .fm2 {
           position: fixed;
-          margin-top: 120%;
+          margin-top: -100%;
           width: 200px;  
-          margin-left: 20%;
+          margin-left: 46%;
           
         }
         
         .button-bordersfm2 {
           position: fixed;
-          margin-left: 113px;
-          margin-top: 210%;
+          margin-left: 59%;
+          margin-top: -20%;
         }
         
               
