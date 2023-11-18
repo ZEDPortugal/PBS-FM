@@ -200,6 +200,52 @@ z-index: 0;
 fill: #0E1822;
 }
 
+/* RP1 */
+
+.button-bordersrp1 {
+  position: fixed;
+  margin-left: -47.5%;
+  margin-top: 32%;
+}
+
+.button-bordersrp1 {
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+}
+
+.button-bordersrp1:before {
+  content: "";
+  position: absolute;
+  width: calc(100% + 0.5em);
+  height: 50%;
+  left: -0.3em;
+  top: -0.3em;
+  border: 1px solid #0E1822;
+  border-bottom: 0px;
+}
+
+.button-bordersrp1:after {
+  content: "";
+  position: absolute;
+  width: calc(100% + 0.5em);
+  height: 50%;
+  left: -0.3em;
+  bottom: -0.3em;
+  border: 1px solid #0E1822;
+  border-top: 0px;
+  z-index: 0;
+}
+
+.rp1 {
+  position: fixed;
+  margin-left: 0;
+  width: 300px;
+  margin-top: 0;
+}
+
+
+
 /* image */
 
 /* FM1 */
@@ -215,8 +261,15 @@ fill: #0E1822;
   position: fixed;
   margin-left: 38.5%;
   width: 300px;
+  margin-top: -20%;
 }
 
+.rp1 {
+  position: fixed;
+  margin-left: 38.5%;
+  width: 300px;
+  margin-top: 10%;
+}
 
 /* FM2 */
 
@@ -306,6 +359,21 @@ fill: #0E1822;
   margin-top: 110%;
 }
 
+/* RP1 */
+
+.rp1 {
+  position: fixed;
+  margin-left: 38.5%;
+  width: 300px;
+  margin-top: 10%;
+}
+
+.button-bordersrp1 {
+  position: fixed;
+  margin-left: -47.5%;
+  margin-top: 32%;
+}
+
       
     }
 
@@ -363,7 +431,7 @@ fill: #0E1822;
                     position: fixed;
                     width: 200px; 
                     margin-left: 42%;
-                    margin-top: 0%;
+                    margin-top: -15%;
                   }
                   
                   
@@ -381,6 +449,21 @@ fill: #0E1822;
                     position: fixed;
                     margin-left: 76%;
                     margin-top: 20%;
+                  }
+
+                  /* RP1 */
+
+                  .rp1 {
+                    position: fixed;
+                    margin-left: 37.6%;
+                    width: 300px;
+                    margin-top: 20%;
+                  }
+
+                  .button-bordersrp1 {
+                    position: fixed;
+                    margin-left: 46.5%;
+                    margin-top: 47%;
                   }
                   
                         
@@ -428,9 +511,9 @@ fill: #0E1822;
         /* pbs */
         .pbs {
           position: fixed;
-          width: 200px; 
-          margin-left: 24%;
-          margin-top: 100%;
+          width: 150px; 
+          margin-left: 30%;
+          margin-top: 170%;
         }
         
         
@@ -450,6 +533,18 @@ fill: #0E1822;
           margin-top: 5%;
         }
         
+        .rp1 {
+          position: fixed;
+          margin-left: 23%;
+          width: 200px;
+          margin-top: 60%;
+        }
+        
+        .button-bordersrp1 {
+          position: fixed;
+          margin-left: 35.5%;
+          margin-top: 110%;
+        }
               
             }
 
