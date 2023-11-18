@@ -1,33 +1,34 @@
-var audio = document.getElementById('audio1');
+var audio = document.getElementById('top_player_Html5_api');
 var playButton = document.getElementById('playButton');
-
-function toggleAudio() {
-    if (audio.paused) {
-        audio.play();
-        playButton.innerHTML = 'FM1';
-        playButton.style.backgroundColor = '#0E1822';
-    } else {
-        audio.pause();
-        playButton.innerHTML = 'FM1';
-        playButton.style.backgroundColor = '#FF4655';
-    }
-}
-
-playButton.addEventListener('click', toggleAudio);
 
 var audio2 = document.getElementById('audio2');
 var playButton2 = document.getElementById('playButton2');
 
-function toggleAudio2() {
-    if (audio2.paused) {
-        audio2.play();
-        playButton2.innerHTML = 'FM2';
-        playButton2.style.backgroundColor = '#0E1822';
+function toggleAudio(audioElement, playButtonElement, otherAudioElement, otherPlayButtonElement) {
+    if (audioElement.paused) {
+        audioElement.play();
+        playButtonElement.innerHTML = 'FM1';
+        playButtonElement.style.backgroundColor = '#0E1822';
+
+        if (!otherAudioElement.paused) {
+            otherAudioElement.pause();
+            otherPlayButtonElement.innerHTML = 'FM2';
+            otherPlayButtonElement.style.backgroundColor = '#FF4655';
+        }
     } else {
-        audio2.pause();
-        playButton2.innerHTML = 'FM2';
-        playButton2.style.backgroundColor = '#FF4655';
+        audioElement.pause();
+        playButtonElement.innerHTML = 'FM1';
+        playButtonElement.style.backgroundColor = '#FF4655';
     }
 }
 
+function toggleAudio2() {
+    toggleAudio(audio2, playButton2, audio, playButton);
+}
+
+function toggleAudio1() {
+    toggleAudio(audio, playButton, audio2, playButton2);
+}
+
+playButton.addEventListener('click', toggleAudio1);
 playButton2.addEventListener('click', toggleAudio2);
