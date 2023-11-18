@@ -33,7 +33,7 @@ text-decoration: none;
 
 .logo {
 font-family: "montserrat", sans-serif;
-font-size: 50px;
+font-size: 15px;
 resize: none;
 margin-left: 10px;
 color: antiquewhite;
@@ -326,7 +326,7 @@ fill: #0E1822;
     
       .logo {
         font-family: "montserrat", sans-serif;
-        font-size: 50px;
+        font-size: 15px;
         resize: none;
         margin-left: 10px;
         color: antiquewhite;
@@ -407,7 +407,7 @@ fill: #0E1822;
         
           .logo {
             font-family: "montserrat", sans-serif;
-            font-size: 50px;
+            font-size: 15px;
             resize: none;
             margin-left: 10px;
             color: antiquewhite;
@@ -486,7 +486,7 @@ fill: #0E1822;
         
           .logo {
             font-family: "montserrat", sans-serif;
-            font-size: 50px;
+            font-size: 15px;
             resize: none;
             margin-left: 10px;
             color: antiquewhite;
@@ -566,7 +566,7 @@ fill: #0E1822;
             
               .logo {
                 font-family: "montserrat", sans-serif;
-                font-size: 50px;
+                font-size: 15px;
                 resize: none;
                 margin-left: 10px;
                 color: antiquewhite;
@@ -646,7 +646,7 @@ fill: #0E1822;
                 
                   .logo {
                     font-family: "montserrat", sans-serif;
-                    font-size: 50px;
+                    font-size: 15px;
                     resize: none;
                     margin-left: 10px;
                     color: antiquewhite;
@@ -725,7 +725,7 @@ fill: #0E1822;
                 
                   .logo {
                     font-family: "montserrat", sans-serif;
-                    font-size: 50px;
+                    font-size: 15px;
                     resize: none;
                     margin-left: 10px;
                     color: antiquewhite;
@@ -805,10 +805,11 @@ fill: #0E1822;
                     
                       .logo {
                         font-family: "montserrat", sans-serif;
-                        font-size: 50px;
+                        font-size: 15px;
                         resize: none;
                         margin-left: 10px;
                         color: antiquewhite;
+                        }
                         }
                     
                       header {
@@ -865,7 +866,6 @@ fill: #0E1822;
                     }
                     
                           
-                        }
 
                         @media screen and (max-width: 360px) {
         
@@ -885,7 +885,7 @@ fill: #0E1822;
                         
                           .logo {
                             font-family: "montserrat", sans-serif;
-                            font-size: 50px;
+                            font-size: 15px;
                             resize: none;
                             margin-left: 10px;
                             color: antiquewhite;
@@ -1125,7 +1125,7 @@ fill: #0E1822;
                                     
                                       .logo {
                                         font-family: "montserrat", sans-serif;
-                                        font-size: 80px;
+                                        font-size: 15px;
                                         resize: none;
                                         margin-left: 10px;
                                         color: antiquewhite;
@@ -1149,23 +1149,23 @@ fill: #0E1822;
                                     
                                     .fm1 {
                                       position: fixed;
-                                      margin-top: -70%;
+                                      margin-top: -110%;
                                       width: 350px;  
-                                      margin-left: 0px;
+                                      margin-left: 170px;
                                     }
                                     
                                     .button-bordersfm1 {
                                       position: fixed;
-                                      margin-left: 125px;
-                                      margin-top: 0%;
+                                      margin-left: 295px;
+                                      margin-top: -35%;
                                     }
                                     
                                     
                                     /* pbs */
                                     .pbs {
                                       position: fixed;
-                                      width: 400px;
-                                      margin-left: 19%;
+                                      width: 0px;
+                                      margin-left: 0%;
                                       margin-top: 80%;
                                     }
                                     
@@ -1175,14 +1175,14 @@ fill: #0E1822;
                                     .fm2 {
                                       position: fixed;
                                       width: 350px;  
-                                      margin-left: 330px;
-                                      margin-top: -70%;
+                                      margin-left: 170px;
+                                      margin-top: 40%;
                                     }
                                     
                                     .button-bordersfm2 {
                                       position: fixed;
-                                      margin-left: 454px;
-                                      margin-top: -0%;
+                                      margin-left: 295px;
+                                      margin-top: 120%;
                                     }
                                     
                                           
