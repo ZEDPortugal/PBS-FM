@@ -281,6 +281,174 @@ fill: #0E1822;
 }
 
 /* Responsive changes */
+
+
+
+@media screen and (max-width: 2560px) { 
+    
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 8%;
+    padding: 0% 0%;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    font-family: "montserrat", sans-serif;
+    font-size: 40px;
+    resize: none;
+    margin-left: 10px;
+    color: #ffffff;
+    }
+
+/* FM1 */
+
+.fm1 {
+  position: fixed;
+  margin-top: 0%;
+  width: 400px;  
+  margin-left: 15%;
+}
+
+.button-bordersfm1 {
+  position: fixed;
+  margin-left: 21%;
+  margin-top: 20%;
+}
+
+
+/* pbs */
+.pbs {
+  position: fixed;
+  width: 500px; 
+  margin-left: 40.5%;
+  margin-top: -20%;
+}
+
+
+/* FM2 */
+
+.fm2 {
+  position: fixed;
+  margin-top: 0%;
+  width: 400px;  
+  margin-left: 70%;
+  
+}
+
+.button-bordersfm2 {
+  position: fixed;
+  margin-left: 75.9%;
+  margin-top: 20%;
+}
+
+.rp1 {
+  position: fixed;
+  margin-left: 42.5%;
+  width: 400px;
+  margin-top: 10%;
+}
+
+.button-bordersrp1 {
+  position: fixed;
+  margin-left: 47.8%;
+  margin-top: 25%;
+}
+      
+    }
+
+    @media screen and (max-width: 1440px) { 
+          
+
+      header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 8%;
+        padding: 0% 0%;
+        background: black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .logo {
+        font-family: "montserrat", sans-serif;
+        font-size: 30px;
+        resize: none;
+        margin-left: 10px;
+        color: #ffffff;
+        }
+    
+    /* FM1 */
+    
+    .fm1 {
+      position: fixed;
+      margin-top: -10%;
+      width: 250px;  
+      margin-left: 10%;
+    }
+    
+    .button-bordersfm1 {
+      position: fixed;
+      margin-left: 15.4%;
+      margin-top: 20%;
+    }
+    
+    
+    /* pbs */
+    .pbs {
+      position: fixed;
+      width: 350px; 
+      margin-left: 38%;
+      margin-top: -15%;
+    }
+    
+    
+    /* FM2 */
+    
+    .fm2 {
+      position: fixed;
+      margin-top: -10%;
+      width: 250px;  
+      margin-left: 71%;
+      
+    }
+    
+    .button-bordersfm2 {
+      position: fixed;
+      margin-left: 76.3%;
+      margin-top: 20%;
+    }
+
+    /* RP1 */
+
+    .rp1 {
+      position: fixed;
+      margin-left: 42.1%;
+      width: 250px; 
+      margin-top: 15%;
+    }
+
+    .button-bordersrp1 {
+      position: fixed;
+      margin-left: 47.1%;
+      margin-top: 35%;
+    }
+    
+          
+        }
+
+        
+
+        
   
 @media screen and (max-width: 320px) {
 
@@ -547,3 +715,5 @@ fill: #0E1822;
         }
               
             }
+
+            
